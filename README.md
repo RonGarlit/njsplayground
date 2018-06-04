@@ -1,2 +1,2 @@
-# jnjsplayground
-TMy very basic setup
+# njsplayground
+My very basic setup
