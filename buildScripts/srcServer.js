@@ -1,15 +1,23 @@
-/* import express from 'express';
+
+
+/* var express = require('express');
+var path = require('path');
+var open = require('open'); */
+
+// Rewritten in ES6 to use import
+// convert npm script to use babel-node versus node
+
+import express from 'express';
 import path from 'path';
 import open from 'open';
-import webpack from 'webpack';
+/* import webpack from 'webpack';
 import config from '../webpack.config.dev'; */
-
-var express = require('express');
-var path = require('path');
-var open = require('open');
 
 /* eslint-disable no-console */
 
+//Change var keyword to const ES6 version
+/* var port = 3000;
+var app = express(); */
 const port = 3000;
 const app = express();
 // const compiler = webpack(config);
